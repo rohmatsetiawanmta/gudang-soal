@@ -90,6 +90,7 @@ export async function fetchQuestionById(id) {
         options, 
         answer_key, 
         explanation,
+        type,
         subchapters!inner(title, chapters!inner(title))
     `
     )
